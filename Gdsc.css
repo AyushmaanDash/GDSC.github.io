@@ -1,0 +1,76 @@
+body {
+    margin: 0%;
+    background-color: #eafcff;
+}
+
+nav {
+    font-family: "Helvetica";
+    font-size: x-large;
+    background-color: #137f9a;
+    overflow: auto;
+    border-bottom: thick solid black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    padding: 3%;
+    float: left;
+}
+
+a#name {
+    padding-right: 40%;
+}
+
+p#Hobbies {
+    max-width: 10%;
+    max-height: 10%;
+    width: 10%;
+    height: 10%;
+}
+
+h1#Heading {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+p#Description {
+    padding-left: 5%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+div#image{
+    height: 60%;
+    width: 40%;
+}
+
+div#image img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+}
+
+/* div html width 80px hieght 10px relatuve background white div within a div position absolute top 0 left 0 width % hieght 10px black */
+
+/* p#Description{
+    padding-left: 15%;
+    text-align: center;
+} */
+
+
+/* h1#Heading, p#Description{
+    text-align: left;
+    float: left;
+} */
+
+/* 
+a:active{
+    text-decoration: whitesmoke underline 0.2em;
+}
+ */
+
+/* *{
+    background-color: #4bace8;
+} */
