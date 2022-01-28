@@ -24,13 +24,6 @@ a#name {
     padding-right: 40%;
 }
 
-p#Hobbies {
-    max-width: 10%;
-    max-height: 10%;
-    width: 10%;
-    height: 10%;
-}
-
 h1#Heading {
     padding-left: 10%;
     padding-top: 5%;
@@ -52,25 +45,15 @@ div#image img{
     object-fit: cover;
 }
 
-/* div html width 80px hieght 10px relatuve background white div within a div position absolute top 0 left 0 width % hieght 10px black */
-
-/* p#Description{
-    padding-left: 15%;
-    text-align: center;
-} */
-
-
-/* h1#Heading, p#Description{
-    text-align: left;
-    float: left;
-} */
-
-/* 
-a:active{
-    text-decoration: whitesmoke underline 0.2em;
+div#Hobbies{
+    height: 10%;
+    width: 10%;
 }
- */
 
-/* *{
-    background-color: #4bace8;
-} */
+div#Hobbies img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0.3em solid black ;
+    border-radius: 50%;
+}
