@@ -82,7 +82,7 @@ a:hover{
 }
 
 
-div.Button{
+div .Button{
     border-radius: 10%;
     padding: 12px;
     padding-right: 14px;
@@ -111,7 +111,6 @@ div.Hobbies {
     width: 10%;
     margin-left: 15%;
     margin-right: 10%;
-    
     align-items: center;
     text-align: center;
 
@@ -143,6 +142,7 @@ h4.Caption {
 #Skills {
     padding-top: 10%;
     padding-left: 20%;
+    /* padding-bottom: 5%; */
     font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -158,7 +158,7 @@ div.ProgressBar {
 
 div.Progress {
     height: 10px;
-    background-color: #fd6fbe;
+    background-color:#fd6fbe ;
     position: absolute;
     top: 0;
     left: 0;
@@ -176,6 +176,6 @@ div.Progress {
     width: 5%;
 }
 
-div.skill-level{
+.skill-level{
     margin-top: 40px;
 }
