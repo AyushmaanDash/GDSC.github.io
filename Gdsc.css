@@ -78,7 +78,7 @@ a{
 }
 
 
-div .Button{
+div.Button{
     border-radius: 10%;
     padding: 12px;
     padding-right: 14px;
@@ -172,6 +172,6 @@ div.Progress {
     width: 5%;
 }
 
-.skill-level{
+div.skill-level{
     margin-top: 40px;
 }
