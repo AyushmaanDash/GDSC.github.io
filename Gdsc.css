@@ -1,22 +1,28 @@
+*{
+    font-family: 'Raleway','Helvetica;'
+}
 body {
     margin: 0%;
-    background-color: #eafcff;
+    background-color: white;
 }
 
 nav {
-    font-family: "Helvetica";
-    font-size: x-large;
-    background-color: #137f9a;
+    font-family: "Raleway";
+    font-size: 21px;
+    background-color: #7900FF;
     overflow: auto;
-    border-bottom: thick solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
 }
 
-a {
+a{
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
-    padding: 3%;
+    padding: 2%;
     float: left;
 }
 
@@ -31,21 +37,23 @@ a {
 
 #Description {
     padding-left: 5%;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Raleway', cursive;
 }
 
 #image {
     height: 60%;
     width: 80%;
-    padding-top: 5%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 10%;
+
+    border-bottom: 0.5em solid #7900FF;
+    border-top: 0.3em solid #7900FF;
 }
 
 #image img {
     width: 100%;
-    height: 100;
-    border-radius: 50%;
-    border-bottom: 0.5em solid #04586d;
-    border-top: 0.3em solid #04586d;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -54,6 +62,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 5% ;
     padding-left: 10%;
+    margin-top: 85px;
 }
 
 #InnerGrid{
@@ -61,16 +70,21 @@ a {
 }
 
 #ButtonGrid{
-    padding-top: 5%;
-    padding-left: 25%;
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+  
 }
-/* 
-#PaddingButton{
-   
-} */
 
-div.Button{
+
+div .Button{
     border-radius: 10%;
+    padding: 12px;
+    padding-right: 14px;
+    color: black;
+    background-color: #7900FF;
+    border: none;
 }
 
 /* Code for Hobbies start here  */
@@ -78,10 +92,14 @@ div.Button{
 
 #Flexcontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 20%;
+    margin-top: 85px;
+}
+
+div.containerChild1{
+    display: flex;
+    flex-direction: row;
 }
 
 div.Hobbies {
@@ -89,6 +107,7 @@ div.Hobbies {
     width: 10%;
     margin-left: 15%;
     margin-right: 10%;
+    
     align-items: center;
     text-align: center;
 
@@ -98,12 +117,21 @@ div.Hobbies img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* position: absolute;
+    top: 0; */
+}
+
+div.Hobbies > div:first-child{
+    width : 80%;
+    height: 80%;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
     border: 0.3em solid black;
-    border-radius: 50%;
 }
 
 h4.Caption {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Raleway';
     font-size: xx-large;
     font-weight: bold;
 }
@@ -124,11 +152,12 @@ div.ProgressBar {
     background-color: white;
     position: relative;
     border: 2px solid black;
+    margin-top: 10px
 }
 
 div.Progress {
     height: 10px;
-    background-color: #04afda;
+    background-color: #93FFD8;
     position: absolute;
     top: 0;
     left: 0;
@@ -144,4 +173,8 @@ div.Progress {
 
 #JS {
     width: 5%;
+}
+
+.skill-level{
+    margin-top: 40px;
 }
