@@ -26,6 +26,10 @@ a{
     float: left;
 }
 
+a:hover{
+    text-decoration: whitesmoke underline 0.2em;
+}
+
 #name {
     padding-right: 40%;
 }
